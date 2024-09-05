@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="420dp"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/id39"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/fondo4"
+        android:backgroundTint="@color/Fondo3"
+        android:padding="3dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:textColor="@color/Color3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:padding="3dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fondo3"
+        android:backgroundTint="@color/Fondo3"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:text="1"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/Color1"/>
+
+            <TextView
+                android:id="@+id/id2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:text="2"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/Color1"/>
+
+            <TextView
+                android:id="@+id/id3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:text="3"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/Color1"/>
+
+            <TextView
+                android:id="@+id/id4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:text="4"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/Color1"/>
+
+            <TextView
+                android:id="@+id/id5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:text="5"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/Color1"/>
+
+            <TextView
+                android:id="@+id/id6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:text="6"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/Color1"/>
+
+            <TextView
+                android:id="@+id/id7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:text="7"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/Color1"/>
+
+            <TextView
+                android:id="@+id/id8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:text="8"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/Color1"/>
+
+            <TextView
+                android:id="@+id/id9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:text="9"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/Color1"/>
+
+            <TextView
+                android:id="@+id/id10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:text="0"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/Color1"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/id11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s17"/>
+
+            <ImageView
+                android:id="@+id/id12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s23"/>
+
+            <ImageView
+                android:id="@+id/id13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s5"/>
+
+            <ImageView
+                android:id="@+id/id14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s18"/>
+
+            <ImageView
+                android:id="@+id/id15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s20"/>
+
+            <ImageView
+                android:id="@+id/id16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s25"/>
+
+            <ImageView
+                android:id="@+id/id17"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s21"/>
+
+            <ImageView
+                android:id="@+id/id18"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s9"/>
+
+            <ImageView
+                android:id="@+id/id19"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s15"/>
+
+            <ImageView
+                android:id="@+id/id20"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s16"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/vacio"/>
+
+            <ImageView
+                android:id="@+id/id21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s1"/>
+
+            <ImageView
+                android:id="@+id/id22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s19"/>
+
+            <ImageView
+                android:id="@+id/id23"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s4"/>
+
+            <ImageView
+                android:id="@+id/id24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s6"/>
+
+            <ImageView
+                android:id="@+id/id25"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s7"/>
+
+            <ImageView
+                android:id="@+id/id26"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s8"/>
+
+            <ImageView
+                android:id="@+id/id27"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s10"/>
+
+            <ImageView
+                android:id="@+id/id28"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s11"/>
+
+            <ImageView
+                android:id="@+id/id29"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s12"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/vacio"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/id38"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo1"
+                android:padding="10dp"
+                android:src="@drawable/vacio"/>
+
+            <ImageView
+                android:id="@+id/id30"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s26"/>
+
+            <ImageView
+                android:id="@+id/id31"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s24"/>
+
+            <ImageView
+                android:id="@+id/id32"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s3"/>
+
+            <ImageView
+                android:id="@+id/id33"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s22"/>
+
+            <ImageView
+                android:id="@+id/id34"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s2"/>
+
+            <ImageView
+                android:id="@+id/id35"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s14"/>
+
+            <ImageView
+                android:id="@+id/id36"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo2"
+                android:src="@drawable/pack_s13"/>
+
+            <ImageView
+                android:id="@+id/id37"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fondo3"
+                android:backgroundTint="@color/Fondo1"
+                android:padding="10dp"
+                android:src="@android:drawable/ic_input_delete"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id40"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/fondo3"
+        android:backgroundTint="@color/Fondo2"
+        android:text="Enviar"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/Color1"/>
+
+</LinearLayout>

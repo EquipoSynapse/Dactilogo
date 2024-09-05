@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mi seña</string>
+
+    <string name="t1">Básico</string>
+    <string name="t2">Perfil</string>
+    <string name="t3">Premium</string>
+
+
+    <string name="t4">Recordar mi eleción</string>
+    <string name="t5">Cambiar modo</string>
+    <string name="t6">Synapse</string>
+    <string name="t7">No es un solo curso, es traducción real</string>
+    <string name="t8">Conectando Ideas</string>
+</resources>
