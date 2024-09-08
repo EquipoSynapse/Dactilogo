@@ -13,7 +13,10 @@
         android:roundIcon="@drawable/r3"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dactilogo">
-        <activity android:name=".r.p3"></activity>
+        <activity
+            android:name=".p5"
+            android:exported="false" />
+        <activity android:name=".r.p3" />
         <activity android:name=".MainActivity" />
         <activity android:name=".m.p2" />
         <activity

@@ -1,0 +1,128 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2C9883"
+    android:padding="20dp">
+
+    <!-- Encabezado con el logo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#2C9883">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:src="@drawable/señal"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <!-- Espacio entre el encabezado y la imagen de usuario -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <!-- Imagen que representa al usuario en el centro -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/r1" />
+
+    <!-- Campo para el nombre -->
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:drawableLeft="@android:drawable/ic_menu_person"
+        android:drawablePadding="10dp"
+        android:textColor="#2C3E50"
+        android:hintTextColor="#7F8C8D"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo para la fecha de nacimiento con DatePicker -->
+    <TextView
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Nacimiento"
+        android:padding="10dp"
+        android:drawableLeft="@android:drawable/ic_menu_today"
+        android:drawablePadding="10dp"
+        android:textColor="#2C3E50"
+        android:hintTextColor="#7F8C8D"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo para el correo -->
+    <EditText
+        android:id="@+id/n4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawablePadding="10dp"
+        android:textColor="#2C3E50"
+        android:hintTextColor="#7F8C8D"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo para la contraseña -->
+    <EditText
+        android:id="@+id/n5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="10dp"
+        android:textColor="#2C3E50"
+        android:hintTextColor="#7F8C8D"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Botón de Registrar Usuario con el color del logo -->
+    <Button
+        android:id="@+id/n3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Usuario"
+        android:textColor="#FFFFFF"
+        android:background="#C0392B"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón de Cancelar -->
+    <Button
+        android:id="@+id/cancelar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:textColor="#FFFFFF"
+        android:background="#E74C3C"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- //Botón de Volver -->
+    <Button
+        android:id="@+id/volver_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:textColor="#FFFFFF"
+        android:background="#3498DB"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
